@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zariya Boutique</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+
+
+        <nav>
+        
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <li>
+           <li>
+<a href="#">
+🛒 Cart (<span id="cart-count">0</span>)
+</a>
+</li>
+
+<li>
+<a href="wishlist.html">
+❤️ Wishlist (<span id="wish-count">0</span>)
+</a>
+</li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Zariya</h1>
+            <h2>Where Tradition Meets Elegance</h2>
+
+            <button class="btn">
+                Explore Collection
+            </button>
+        </div>
+
+    </header>
+
+    <!-- COLLECTIONS -->
+
+    <section class="collections" id="collections">
+
+        <h2>Featured Collections</h2>
+
+        <p>
+            Curated ethnic styles for every occasion
+        </p>
+         <input
+       type="text"
+       id="search"
+       class="search-bar"
+       placeholder="🔍 Search Collections">
+
+        <div class="collection-grid">
+
+           <div class="card">
+    <img src="images/royal-drapes.jpg.png" alt="Royal Drapes"class="product-img">
+    <h3>Royal Drapes</h3>
+    <p class="price">
+        <span class ="old-price"> ₹2,999 </span>
+        ₹1,999
+    </p>
+     <button class="cart-btn"
+        data-name="Royal Drapes"
+         data-price="1999">
+
+        Add to Cart
+    </button>
+     <button class="wish-btn">
+        ❤️ Wishlist
+    </button>
+</div>
+
+<div class="card">
+    <img src="images/floral-grace.jpg.png" alt="Floral Grace"class="product-img">
+    <h3>Floral Grace</h3>
+     <p class="price">
+      <span class="old-price">₹3,999</span>
+    ₹2,999
+     </p>
+     <div class="quantity-box">
+
+    <button class="minus">-</button>
+
+    <span class="quantity">1</span>
+
+    <button class="plus">+</button>
+
+</div>
+     <button
+class="cart-btn"
+data-name="FLoral Grace"
+data-price="2999">
+
+Add To Cart
+
+</button>
+     <button class="wish-btn">
+        ❤️ Wishlist
+    </button>
+</div>
+
+<div class="card">
+    <img src="images/bridal-glow.jpg.png" alt="Bridal Glow" class="product-img">
+    <h3>Bridal Glow</h3>
+    <p class="price">
+         <span class="old-price"> ₹2,999
+         </span>
+    ₹1,999
+    </p>
+    <div class="quantity-box">
+
+    <button class="minus">-</button>
+
+    <span class="quantity">1</span>
+
+    <button class="plus">+</button>
+
+</div>
+    <button class="cart-btn"
+    data-name="Bridal Glow"
+    data-price="2999">
+
+        Add to Cart
+    </button>
+     <button class="wish-btn">
+        ❤️ Wishlist
+    </button>
+</div>
+
+<div class="card">
+    <img src="images/regal-twirl.jpg.png" alt="Regal Twirl"class="product-img">
+    <h3>Regal Twirl</h3>
+    <p class="price">
+         <span class="old-price">₹3,999</span>
+    ₹2,999
+</p>
+<div class="quantity-box">
+
+    <button class="minus">-</button>
+
+    <span class="quantity">1</span>
+
+    <button class="plus">+</button>
+
+</div>
+<button class="cart-btn"
+data-name="Regal Twirl"
+    data-price="2999">
+
+        Add to Cart
+    </button>
+     <button class="wish-btn">
+        ❤️ Wishlist
+    </button>
+</div>
+        </div>
+        
+        
+
+    </section>
+ 
+   <div class="view-more-container">
+    <button id="viewMoreBtn"
+        onclick="window.location.href='collection.html'">
+        View More Collections
+    </button>
+
+    </section>
+
+     <section class="cart-section">
+
+   <h2>Your Cart</h2>
+
+   <ul id="cart-items"></ul>
+
+   <p>Total: ₹<span id="total">0</span></p>
+
+   <input
+type="text"
+id="customer-name"
+placeholder="Enter Your Name">
+
+<input
+type="tel"
+id="customer-phone"
+placeholder="Enter Your Phone Number">
+
+<button class="checkout-btn">
+Checkout
+</button>
+</section>
+
+
+<section class="cta" id="about">
+    <!-- CTA -->
+
+    
+
+        <h2>Where Elegance Meets Tradition</h2>
+
+        <div class="line"></div>
+
+        <p>
+            Handpicked ethnic collection crafted for modern
+            celebrations and graceful moments
+        </p>
+
+        <button class="btn">
+            Explore Collection
+        </button>
+
+    </section>
+
+
+<section class="contact-section">
+
+    <h2>Get In Touch</h2>
+
+
+    <form>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+        <section class="testimonials">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial">
+            <p>"Beautiful collection and excellent quality."</p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Loved the saree designs and elegant styling."</p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Perfect outfits for festive occasions."</p>
+            <h4>★★★★★</h4>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+
+        <h2>Zariya</h2>
+
+        <p>
+            Elegant ethnic wear for timeless celebrations
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Home</a>
+            <a href="#">Collections</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">WhatsApp</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Zariya. All rights reserved.
+      </p>
+
+    </footer>
+    
+<button id="topBtn">↑</button>
+
+<div id="productModal" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close">&times;</span>
+
+    <img id="modal-img" src="" alt="">
+
+    <h2 id="modal-title"></h2>
+
+    <p id="modal-price"></p>
+
+    <p id="modal-desc"></p>
+
+    <button class="cart-btn">
+      Add To Cart
+    </button>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+    
